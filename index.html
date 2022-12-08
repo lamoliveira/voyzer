@@ -129,20 +129,22 @@
                 
                     var vizList = [
                 
-                        "https://demo.tableau.com/t/LuizOliveira/views/resultado_16680596649160/AcompanhamentodeResultado",
-                        "https://demo.tableau.com/t/LuizOliveira/views/HUMANRESOURCES-HRExpensesDashboardBrasil_16680587741270/Cockpit",
-                        "https://demo.tableau.com/t/LuizOliveira/views/SalesforceCDPEmailMarketingCampaigns_16680589482000/ExecutiveSummary",
-                        "https://demo.tableau.com/t/LuizOliveira/views/SalesforceCDPIdentityResolution_16680607638910/IdentityResolution-Cockpit",
-                        "https://demo.tableau.com/t/LuizOliveira/views/PrevistoxRealizado_16680587739950/AnliseMensal/6e5f3873-1570-4ee9-8d05-84635c818391/e3f0754e-1211-4b2c-b31c-5e27e810f177",
-                        "https://demo.tableau.com/t/LuizOliveira/views/FinanasCorporativas-PainelDemonstrativoFinanceiro_16680587752400/Cockpit-Finance",
-                        "https://demo.tableau.com/t/LuizOliveira/views/3-ExemploPlusoft_16680587739880/DashExemploPlusoft",
-                        "https://demo.tableau.com/t/LuizOliveira/views/2-PlusoftTemplate_16680587742230/NEW_1",
-            
-            
-            
+                    "https://demo.tableau.com/t/LuizOliveira/views/resultado_16704536293320/AcompanhamentodeResultado",
+                    "https://demo.tableau.com/t/LuizOliveira/views/ExecutiveKPIDashboard_16704575972180/ExecutiveDashboard",
+                        "https://demo.tableau.com/t/LuizOliveira/views/PrevistoxRealizado_16704535394930/AnliseMensal/0d30fb3f-72e3-4bf7-954b-851cc8d1e6a7/fa16534c-5bb5-425f-87e4-97ed0527a6ea",
+                        "https://demo.tableau.com/t/LuizOliveira/views/HUMANRESOURCES-HRExpensesDashboardBrasil_16704536290210/Cockpit",
+                        "https://demo.tableau.com/t/LuizOliveira/views/FinanasCorporativas-PainelDemonstrativoFinanceiro_16704536306300/Cockpit-Finance",
+                        "https://demo.tableau.com/t/LuizOliveira/views/2-Template/Template",
+                        "https://demo.tableau.com/t/LuizOliveira/views/3-Exemplo/DashExemplo",
+                        "https://public.tableau.com/shared/7RGNJQGRP",
+                        "https://public.tableau.com/views/ProjectManagementDashboardMaterialDesign/PROJECTMANAGEMENTSUMMARY",
+                        "https://public.tableau.com/views/SubcontractorScorecard-EmilyDesign/ScorecardDashboard",
+                        "https://public.tableau.com/views/ProjectManagementDashboard_15982726435440/PROJECTMANAGEMENTSUMMARY",
+                        
+                        "https://demo.tableau.com/t/LuizOliveira/views/PROCUREMENT-ContractManagementDashboard_16704542392450/Home",
                         "https://demo.tableau.com/t/LuizOliveira/views/1-XX-DesigningEffectiveDashboards_16609286511730/Intro",
-                        "https://demo.tableau.com/t/LuizOliveira/views/Embedded_Analytics_DemoPT-BR_16620524663060/Introduo",
-                        "https://demo.tableau.com/t/LuizOliveira/views/StravaActivities/AtividadesStrava"
+                        "https://demo.tableau.com/t/LuizOliveira/views/Embedded_Analytics_DemoPT-BR_16620524663060/Introduo"
+                        
                 
                 
                     ];
@@ -176,37 +178,39 @@
                             //alert("I am a desktop layout!");
                             devType = 'desktop';
                             vWidth = 1666;
-                            vHeight = 900;
+                            vHeight = 1000;
                             //options.device = 'desktop';
                         }
                         console.log("devtype: " + devType)
                         console.log("launch0")
                         launchViz(0);
                         console.log("launch1")
+                        vHeight = 1500;
                         launchViz(1);
+                        vHeight = 1000;
                         console.log("launch2")
-                        vHideToolbar=false;
-                            vHideTabs= false;
+                      
                         launchViz(2);
                         console.log("launch3")
                         launchViz(3);
+                        launchViz(4);
                         vHideToolbar=true;
                             vHideTabs= true;
-                        launchViz(4);
                         launchViz(5);
                         launchViz(6);
+                        vHeight = 1300;
                         launchViz(7);
-                
+                        launchViz(8);
+                        
                         vHideToolbar=false;
                             vHideTabs= false;
-                        launchViz(8);
                         launchViz(9);
-                        vHideToolbar=true;
-                            vHideTabs= true;
+                    
                         launchViz(10);
-                
-                
-                
+                        vHeight = 1000;
+                        launchViz(11);
+                        launchViz(12);
+                        launchViz(13);
                 
                         // Launches the viz again with the new sizing at the current index of vizList.
                     }
@@ -270,22 +274,20 @@
                   </div></div></div>
                   
 
-                  <p> --------</p>
-                  <p> --------</p>
-                  <p> --------</p>
-                  <p> --------</p>    <p> --------</p>
-                  <p> --------</p>    
+                  <p> - </p>
+                  <p> - </p>
+                  <p> - </p>
+                  <p> - </p>    
+                  <p> - </p>
+                  <p> Este é um micro-site criado somente para ilustrar o que seria o Tableau embedded no seu site. Somente alguns exemplos para inspira-los na avaliação do Tableau e para conhecermos melhor o seu use case</p> 
+                  <p> Todos os dashboards apresentados contem dados ficticios para fins educacionais </p>   
                   
     <div style="text-align: center;">
         <div style="display: inline-block;">
             <div id="vizContainer0"></div>
         </div>
     </div>
-    <div style="text-align: center;">
-        <div style="display: inline-block;">
-            <div id="vizContainer10"></div>
-        </div>
-    </div>
+
     <div style="text-align: center;">
         <div style="display: inline-block;">
             <div id="vizContainer1"></div>
@@ -329,6 +331,26 @@
     <div style="text-align: center;">
         <div style="display: inline-block;">
             <div id="vizContainer9"></div>
+        </div>
+    </div>
+    <div style="text-align: center;">
+        <div style="display: inline-block;">
+            <div id="vizContainer10"></div>
+        </div>
+    </div>
+    <div style="text-align: center;">
+        <div style="display: inline-block;">
+            <div id="vizContainer11"></div>
+        </div>
+    </div>
+    <div style="text-align: center;">
+        <div style="display: inline-block;">
+            <div id="vizContainer12"></div>
+        </div>
+    </div>
+    <div style="text-align: center;">
+        <div style="display: inline-block;">
+            <div id="vizContainer13"></div>
         </div>
     </div>
                   <div id="vacancies" class="styles__Main-sc-19uu72c-1 leoCG"><div class="styles__Container-sc-19uu72c-0 iODkpv"><div class="styles__ContainerEmpty-sc-19uu72c-6 euoTqg"><h2>Ops!</h2><h4>Ainda não existe nenhuma vaga cadastrada aqui.</h4><p>Enquanto isso, você pode enviar seu currículo para nosso banco de talentos, assim nossos recrutadores poderão encontrar a vaga que melhor se encaixa no seu perfil.</p><a href="https://talent.recrutei.com.br/grupo-voyzer/signup">Quero entrar no Banco de Talentos</a><img src="/static/undraw_empty_vacancies.svg"/></div></div></div><div id="sendCurriculum" class="styles__Container-sc-mivqcl-0 cbRaRX"><div class="styles__Title-sc-mivqcl-1 jhzFzp">Não encontrou a vaga que queria?</div>
